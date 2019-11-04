@@ -1,0 +1,4 @@
+student name: Deldar Shekho.
+student number: 648328.
+student class: INF1d
+URL student: https://github.com/Deldar777/WebMarkup
