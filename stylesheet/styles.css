@@ -2,7 +2,7 @@
 {
 background-image: url('../img/background_mainheader.jpg');
 }
-img.bazaar , .strand , .taekwondo
+img.bazaar , .strand , .taekwondo,.assumburg
 {
   float: right;
 }
@@ -57,7 +57,7 @@ p.normal
   text-align: center;
   display: block;
 }
-img.voetbal , .zwemmen , .tennis , .basketbal , .taek
+img.voetbal , .zwemmen , .tafeltennis , .basketbal , .taek,.biljarten,.schaatsen,.tennis,.petanque,.handbal
 {
   float: right;
 }
