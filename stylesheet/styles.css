@@ -2,15 +2,7 @@
 {
 background-image: url('../img/background_mainheader.jpg');
 }
-img.bazaar
-{
-  float: right;
-}
-img.strand
-{
-  float: right;
-}
-img.taekwondo
+img.bazaar , .strand , .taekwondo
 {
   float: right;
 }
@@ -64,4 +56,8 @@ p.normal
   background-color: #444;
   text-align: center;
   display: block;
+}
+img.voetbal , .zwemmen , .tennis , .basketbal , .taek
+{
+  float: right;
 }
