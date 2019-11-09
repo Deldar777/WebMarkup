@@ -71,10 +71,8 @@ p.normal
 }
 .voetbal , .zwemmen , .tafeltennis , .basketbal , .taek, .biljarten, .tennis, .petanque, .taekwondo,.schaatsen, .handbal
 {
-  float: right;
   width: 150px;
   height:150px;
-  margin-left:15px
 }
 .clubsfont
 {
@@ -82,7 +80,17 @@ p.normal
   font-style: italic;
   font-weight: bold;
 }
-@media screen and (max-width: 800px)
+ol
+{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 1.5em;
+  grid-row-gap: 1.5em;
+  list-style: none;
+  margin-left: 5%;
+  padding: 0;
+}
+@media (max-width: 800px)
 {
   body
   {
@@ -110,5 +118,9 @@ p.normal
     width: 100px;
     height:100px;
     margin-left:15px
+  }
+  ol
+  {
+    grid-template-columns: 1fr;
   }
 }
