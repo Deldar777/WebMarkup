@@ -95,9 +95,9 @@ ol
   body
   {
     background-color: #aaa;
-    font-size: 1.4em;
+    font-size: 1em;
     margin: 0;
-    padding: 1em;
+    padding: 0.9em;
     font-family: Arial, sans-serif;
   }
   .Nav
