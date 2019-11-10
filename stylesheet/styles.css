@@ -13,10 +13,12 @@ background-size: 1600px;
 }
 html, body
 {
+  z-index: -1;
   font-size: 1.1em;
   margin: 1em;
   padding: 1em;
-  font-family: Arial, sans-serif;
+  font-family: Arial,serif, sans-serif;
+  color: #000;
   background-color: #2699fb;
 }
 main
@@ -24,11 +26,40 @@ main
   margin: auto;
   padding: 1em;
 }
+.myVideo
+{
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+}
+.titlevideo
+{
+  position: absolute;
+  top: 100%;
+  left: 100%;
+  transform: translate(-100%, -100%);
+  width: 100%;
+  padding: 20px;
+  text-align: center;
+}
+@font-face
+{
+    font-family: "kungfu";
+    src: url("../fonts/kungfu.ttf");
+}
+.bushidofont
+{
+  font-family: "kungfu";
+}
 h1
 {
-  color: #000;
+  color: #f5f5f5;
   font-size: 2.8em;
   margin-left: 0;
+}
+h2
+{
+  color: #fff;
 }
 ul
 {
@@ -55,7 +86,7 @@ ul
 }
 li a:hover
 {
-  background-color: #2699fb;
+  background-color: #707070;
 }
 p.normal
 {
@@ -80,6 +111,7 @@ p.normal
   font-style: italic;
   font-weight: bold;
 }
+/*twee rijen van sportclubs*/
 ol
 {
   display: grid;
@@ -90,7 +122,7 @@ ol
   margin-left: 5%;
   padding: 0;
 }
-@media (max-width: 800px)
+@media(max-width: 1400px) and (min-width: 800px)
 {
   body
   {
@@ -99,6 +131,31 @@ ol
     margin: 0;
     padding: 0.9em;
     font-family: Arial, sans-serif;
+  }
+  .myVideo
+  {
+    width: 100%;
+    min-width: 20%;
+  }
+  .Nav
+  {
+    float: none;
+    grid-column: 1fr,1fr;
+  }
+}
+@media (max-width: 800px)
+{
+  body
+  {
+    background-color: #f5f5f5;
+    font-size: 0.9em;
+    margin: 0;
+    padding: 0.9em;
+    font-family: Arial, sans-serif;
+  }
+  .fontcolor
+  {
+    color: #000;
   }
   .Nav
   {
@@ -127,5 +184,11 @@ ol
   h1
   {
     font-size: 1.5em;
+    color: #fff;
+  }
+  .myVideo
+  {
+    width: 100%;
+    min-width: 20%;
   }
 }
